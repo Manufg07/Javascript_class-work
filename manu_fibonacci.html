@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci</title>
+</head>
+<body>
+    <p>Fibonaci series</p>
+
+    <p id="demo"></p>
+
+    <script>
+        let a=0;
+        let b=1;
+        let c
+
+        c=a+b;
+        d=c+b
+        e=c+d
+        f=d+e
+        g=f+e
+
+        // a=1;
+        // b=1;
+        // fib=a+b;
+        // a=b;
+        // b=fib;
+
+        document.getElementById('demo').innerHTML="series="+a+" " + b+" " + c+" "+d+" "+e+" "+f+" "+g
+
+        // document.getElementById('demo').innerHTML="series="+a + b
+
+    </script>
+</body>
+</html>
